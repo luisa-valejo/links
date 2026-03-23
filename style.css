@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(203, 145, 226);
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 5em;
+    border-radius: 2em;
+    border: 3px solid #7D1313;
+}
+
+.container > img {
+max-width: 10em;
+height: 10em;
+border-radius: 50em;
+}
